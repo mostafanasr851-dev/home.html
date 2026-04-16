@@ -75,11 +75,12 @@ text-shadow: 1px 2px 1px black;
 .q{
 text-indent: 10px;
 line-height: 1.5;
-text-size-adjust: 350px;
+text-size-adjust: 70%;
 letter-spacing: 1px;
 font-size: large;
 text-shadow: 1px 1px 1px black;
-width:90%;
+width:75%;
+height: 10%;
 
 }
 
