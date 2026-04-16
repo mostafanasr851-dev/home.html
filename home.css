@@ -4,8 +4,19 @@ background-image: url("image.jpg");
 background-size: cover;
 color: white;
 }
-
-
+@media (max-width: 768px) {
+    nav ul li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+}
+}
 footer{
 background-color: cadetblue;
 position: fixed;
@@ -35,10 +46,12 @@ font-size: larger;
 list-style: none;
 padding: 10px;
 opacity: 1.6;
-width: 200px;
+width: 20%;
 text-align: center;
 border: 5px solid rgb(29, 172, 215);
 border-radius: 20px;
+
+
 }
 
 nav ul{
@@ -75,10 +88,13 @@ font-size: large;
 letter-spacing: 1px;
 line-height: 1.4;
 text-shadow: 1px 1px 1px black;
+width: 100%;
 }
 
 .x{
     text-align: center;
     font-size: larger;
 }
+ 
+
 
