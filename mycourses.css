@@ -15,6 +15,8 @@ width: 100%;
 }
 
 
+
+
 nav ul li a{
     text-decoration: none;
     color: black;
@@ -38,7 +40,6 @@ opacity: 1.6;
 width: 200px;
 text-align: center;
 border: 5px solid rgb(29, 172, 215);
-border-radius: 20px;
 }
 
 nav ul{
@@ -52,33 +53,39 @@ width: 100%;
 text-align: center;
 text-shadow: 1px 5px 1px black;
 }
-.z{
-color: rgb(255, 255, 255);
-text-decoration: underline ;
-text-decoration-style: double;
-text-shadow: 1px 2px 1px black;
-}
 
-.q{
-text-indent: 10px;
-line-height: 1.5;
-text-size-adjust: 350px;
-letter-spacing: 1px;
-font-size: large;
-text-shadow: 1px 1px 1px black;
-width: 70%;
-}
-
-section ul{
-list-style: square black;
-font-size: large;
-letter-spacing: 1px;
-line-height: 1.4;
-text-shadow: 1px 1px 1px black;
-}
 
 .x{
     text-align: center;
     font-size: larger;
 }
+table{
+width: 50%;
+height: 250px;
+background-color: rgb(29, 127, 215);
+color: black;
 
+}
+
+table,th{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-transform: capitalize;
+
+margin: 20px auto;
+}
+table,th,td{
+font-size: large;
+border: 3px solid rgb(255, 255, 255);
+margin: 20px auto;
+font-weight: 800;
+border-radius: 12px;
+}
+
+.z{
+color: rgb(255, 255, 255);
+text-decoration: underline ;
+text-decoration-style: double;
+text-indent: 20px;
+text-shadow: 1px 2px 1px black;
+
+}
