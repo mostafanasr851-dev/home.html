@@ -80,6 +80,7 @@ letter-spacing: 1px;
 font-size: large;
 text-shadow: 1px 1px 1px black;
 width: 70%;
+max-height: fit-content;
 }
 
 section ul{
